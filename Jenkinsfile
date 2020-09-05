@@ -45,7 +45,7 @@ environment {
 		stage ('Docker build') {   
 	      steps {
 	     sh '''
-	     cd ${WORKSPACE}
+	     cd ${WORKSPACE}/jenkins-pipeline-dockerfile
 	     docker build -t rajesh987/game-of-life-jenkins:v1 --pull=true --file=Dockerfile ${WORKSPACE}
 	     
 		 '''
