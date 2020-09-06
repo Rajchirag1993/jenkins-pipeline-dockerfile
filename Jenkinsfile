@@ -3,10 +3,10 @@ pipeline {
 	
 environment {
 
-      sonar_url = 'http://172.31.45.230:9000'
+      sonar_url = 'http://172.31.39.179:9000'
       sonar_username = 'admin'
       sonar_password = 'admin'
-      nexus_url = '172.31.45.230:8081'
+      nexus_url = '172.31.39.179:8081'
       artifact_version = '0.0.1'
 
  }
