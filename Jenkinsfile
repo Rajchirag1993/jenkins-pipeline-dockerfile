@@ -19,7 +19,7 @@ environment {
     stages {
         stage('git repo') {
             steps {
-             git 'https://github.com/wakaleo/game-of-life.git'
+             git 'https://github.com/Rajchirag1993/jenkins-pipeline-dockerfile.git'
             }
         }
         stage ('maven') {
